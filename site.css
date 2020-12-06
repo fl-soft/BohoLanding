@@ -1,0 +1,53 @@
+@font-face {
+    font-family: UniNeueLight;
+    src: url(fonts/UniNeueLight.otf);
+}
+@font-face {
+    font-family: Sunday;
+    src: url(fonts/Sunday.ttf);
+}
+@font-face {
+    font-family: Amsterdam4;
+    src: url(fonts/amsterdam4.ttf);
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.bg-boho-menu {
+    background: #D2C8C6 0% 0% no-repeat padding-box;
+}
+
+.nav-link {
+    font: normal normal 1.7rem UniNeueLight;
+    font-weight: bold;
+}
+
+section#main{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/main.png');
+    height: 100%;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 53%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font: normal normal normal 3.5rem/4rem Sunday;
+}
+
+.subtitle {
+    font: normal normal normal 3.3rem/3.5rem Amsterdam4;
+    color: #674A33;
+    text-shadow: 0 0 5px white;
+}
