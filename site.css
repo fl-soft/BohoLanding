@@ -47,12 +47,12 @@ section#main{
 }
 
 .title {
-    font: normal normal normal 4.2rem/4.3rem Sunday;
+    font: normal normal normal 5rem/7rem Sunday;
     overflow: visible;
 }
 
 .subtitle {
-    font: normal normal normal 3.3rem/4rem Amsterdam4;
+    font: normal normal normal 4rem/4rem Amsterdam4;
     color: #674A33;
     text-shadow: 0 0 5px white;
 }
@@ -61,4 +61,12 @@ section#main{
     .title {
         font-size: 3rem;
     }
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Sunday';
+    text-align: center;
+    color: #B5A3A0;
+    margin: 1.5rem;
 }
