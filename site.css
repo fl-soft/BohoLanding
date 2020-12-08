@@ -48,6 +48,7 @@ section#main{
 
 .title {
     font: normal normal normal 4.2rem/4.3rem Sunday;
+    overflow: visible;
 }
 
 .subtitle {
