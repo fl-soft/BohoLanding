@@ -40,7 +40,7 @@ section#main{
 .caption {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 40%;
     width: 100%;
     text-align: center;
     color: white;
@@ -80,6 +80,7 @@ h3 {
     font-family: 'UniNeueLight';
     text-align: center;
     padding-top: 15px;
+    font-weight: bold;
 }
 
 h5 {
@@ -105,10 +106,10 @@ h5 {
     text-align: center;
     background-color: white;
     font-family: 'Sunday';
-    font-size: 2rem;
-    padding: 5px 20px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
     color: #8C725F;
-    bottom: 20px;
-    
+    width: 50%;
+    margin: auto;
 
 }
