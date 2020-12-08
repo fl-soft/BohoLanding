@@ -18,6 +18,7 @@ body, html {
 
 .bg-boho-menu {
     background: #D2C8C6 0% 0% no-repeat padding-box;
+    opacity: 0.82;
 }
 
 .nav-link {
@@ -50,4 +51,10 @@ section#main{
     font: normal normal normal 3.3rem/3.5rem Amsterdam4;
     color: #674A33;
     text-shadow: 0 0 5px white;
+}
+
+@media(max-width: 480px){
+    .title {
+        font-size: 3rem;
+    }
 }
