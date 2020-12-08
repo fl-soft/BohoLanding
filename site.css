@@ -33,7 +33,7 @@ section#main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('images/main.png');
+    background-image: url('images/main.jpg');
     height: 100%;
 }
 
@@ -69,4 +69,46 @@ h2 {
     text-align: center;
     color: #B5A3A0;
     margin: 1.5rem;
+}
+
+.dark-block {
+    background: #D2C8C6;
+}
+
+h3 {
+    color: white;
+    font-family: 'UniNeueLight';
+    text-align: center;
+    padding-top: 15px;
+}
+
+h5 {
+    color: white;
+    font-family: 'UniNeueLight';
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.dark-block ul {
+    padding-left: 0;
+}
+
+.dark-block li {
+    color: white;
+    font-family: 'UniNeueLight';
+    font-size: 1.4rem;
+    list-style-type: none;
+    text-align: center;
+}
+
+.dark-block .price {
+    text-align: center;
+    background-color: white;
+    font-family: 'Sunday';
+    font-size: 2rem;
+    padding: 5px 20px;
+    color: #8C725F;
+    bottom: 20px;
+    
+
 }
