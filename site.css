@@ -40,18 +40,18 @@ section#main{
 .caption {
     position: absolute;
     left: 0;
-    top: 53%;
+    top: 50%;
     width: 100%;
     text-align: center;
     color: white;
 }
 
 .title {
-    font: normal normal normal 3.5rem/4rem Sunday;
+    font: normal normal normal 4.2rem/4.3rem Sunday;
 }
 
 .subtitle {
-    font: normal normal normal 3.3rem/3.5rem Amsterdam4;
+    font: normal normal normal 3.3rem/4rem Amsterdam4;
     color: #674A33;
     text-shadow: 0 0 5px white;
 }
