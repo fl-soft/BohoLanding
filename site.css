@@ -80,6 +80,7 @@ h2 {
 
 .dark-block {
     background: #D2C8C6;
+    padding:10px;
 }
 
 h3 {
@@ -88,6 +89,7 @@ h3 {
     text-align: center;
     padding-top: 15px;
     font-weight: bold;
+    font-size: 2.2rem;
 }
 
 h5 {
@@ -104,6 +106,7 @@ h5 {
 .dark-block li {
     color: white;
     font-family: 'UniNeueLight';
+    font-weight: bold;
     font-size: 1.4rem;
     list-style-type: none;
     text-align: center;
