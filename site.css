@@ -124,6 +124,15 @@ h5 {
 
 }
 
+.chicken-lapa {
+    font-family: 'Amsterdam4';
+    font-size: 2.8rem;
+    position: relative;
+    bottom: -10px;
+    font-weight: normal;
+    left: -8px;
+}
+
 section#how{
     background-position: center;
     background-repeat: no-repeat;
