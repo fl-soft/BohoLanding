@@ -128,3 +128,15 @@ section#how{
     background-image: url('images/04.jpg');
     height: 100%;
 }
+
+#how h2 {
+    padding-top: 4.5rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+#how li{
+    padding: 1rem;
+    background-color: white;
+    opacity: 0.75;
+}
