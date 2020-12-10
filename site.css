@@ -169,7 +169,25 @@ section#locations{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #E3DFDA51;
-    height: 100%;
+}
+
+.loc-name {
+    padding: 10px;
+    text-align: center;
+    font-family: 'UniNeueLight';
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: #FFFFFFDF;
+    color: #8C725F;
+    width: 95%
+}
+
+.loc-info {
+    font-family: 'UniNeueLight';
+    font-size: 2rem;
+    color: #674A33;
+    text-align: center;
+    padding-bottom: 1.5rem;
 }
 
 @media(max-width: 480px){
@@ -188,6 +206,3 @@ section#locations{
     }
 }
 
-.loc-name {
-    
-}
