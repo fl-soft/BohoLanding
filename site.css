@@ -68,12 +68,13 @@ section#main{
 }
 
 h2 {
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     font-size: 2rem;
     font-family: 'Sunday';
     text-align: center;
     color: #B5A3A0;
-    margin: 1.5rem;
+    margin: 0rem;
 }
 
 .dark-block {
@@ -138,6 +139,7 @@ section#how{
     background-size: cover;
     background-image: url('images/04.jpg');
     height: 100%;
+    margin-bottom: 0;
 }
 
 #how h2 {
