@@ -149,7 +149,8 @@ section#how{
 }
 
 #how ul {
-    margin-top: 10rem;
+    margin-top: 8rem;
+    padding-left: 0;
 }
 
 #how li{
