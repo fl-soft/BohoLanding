@@ -192,6 +192,15 @@ section#locations{
     padding-bottom: 1.5rem;
 }
 
+@media(max-width: 1024px) {
+        #how li {
+        font-size: 2rem;
+        padding: 10px;
+        text-align: center;
+        width:80%;
+    }
+}
+
 @media(max-width: 480px){
     .title {
         font-size: 3rem;
@@ -205,6 +214,7 @@ section#locations{
         font-size: 1.5rem;
         padding: 10px;
         text-align: center;
+        width:80%;
     }
 }
 
