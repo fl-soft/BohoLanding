@@ -50,10 +50,18 @@ section#main{
 .caption {
     position: absolute;
     left: 0;
-    top: 40%;
+    top: 30%;
     width: 100%;
     text-align: center;
     color: white;
+}
+
+.upper-title {
+    font-family: 'Sunday';
+    color: white;
+    font-size: 2.5rem;
+    position: relative;
+    top: -5rem;
 }
 
 .title {
@@ -211,6 +219,11 @@ section#locations{
         width:80%;
     }
 
+    .upper-title {
+        font-size: 1.8rem;
+        text-shadow: 0 0 7px #8C725F8F; 
+    }
+
     .title {
         font-size: 3rem;
         text-shadow: 0 0 10px #8C725F; 
@@ -222,6 +235,12 @@ section#locations{
 }
 
 @media(max-width: 480px){
+
+    .upper-title {
+        font-size: 1.5rem;
+        text-shadow: 0 0 7px #8C725F8F; 
+    }
+
     .title {
         font-size: 2.6rem;
         text-shadow: 0 0 10px #8C725F; 
