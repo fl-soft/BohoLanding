@@ -20,6 +20,10 @@ body, html {
     /* background: #D2C8C6D1 0% 0% no-repeat padding-box; */
 }
 
+.bg-boho-light {
+    background-color: #FFFFFF4F;
+}
+
 .nav-link {
     font: normal normal 1.7rem UniNeueLight;
     font-weight: bold;
