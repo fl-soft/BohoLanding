@@ -73,42 +73,52 @@ h2 {
     font-size: 2rem;
     font-family: 'Sunday';
     text-align: center;
-    color: #B5A3A0;
+    color: #d15e57;
     margin: 0rem;
 }
 
 .dark-block {
-    background: #D2C8C6;
-    padding:10px;
+    background: white;
 }
 
 h3 {
-    color: white;
-    font-family: 'UniNeueLight';
-    text-align: center;
-    padding-top: 15px;
-    font-weight: bold;
-    font-size: 2.2rem;
+    color:#A49887;
+    font-family: 'Sunday';
+    text-align: left;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+    background-color: #F6EEE4;
 }
 
 h5 {
-    color: white;
+    color: #A49887;
     font-family: 'UniNeueLight';
-    text-align: center;
+    text-align: left;
+    padding-left: 1.3rem;
     padding-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .dark-block ul {
-    padding-left: 0;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 3em;
+}
+
+.dark-block ul > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
 }
 
 .dark-block li {
-    color: white;
+    color: #A49887;
     font-family: 'UniNeueLight';
     font-weight: bold;
     font-size: 1.4rem;
-    list-style-type: none;
-    text-align: center;
+    list-style-type: ;
 }
 
 .dark-block .price {
@@ -171,7 +181,7 @@ section#locations{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #E3DFDA51;
+    background-color: white;
 }
 
 .loc-name {
@@ -200,11 +210,25 @@ section#locations{
         text-align: center;
         width:80%;
     }
+
+    .title {
+        font-size: 3rem;
+        text-shadow: 0 0 10px #8C725F; 
+    }
+
+    .subtitle {
+        font-size: 2.4rem;
+    }
 }
 
 @media(max-width: 480px){
     .title {
-        font-size: 3rem;
+        font-size: 2.6rem;
+        text-shadow: 0 0 10px #8C725F; 
+    }
+
+    .subtitle {
+        font-size: 2rem;
     }
 
     section {
@@ -217,5 +241,14 @@ section#locations{
         text-align: center;
         width:80%;
     }
+
+    h2 {
+        font-size: 1.5rem
+    }
+
+    .container {
+        padding:0;
+        margin:0;
+      }
 }
 
