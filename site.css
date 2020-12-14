@@ -17,11 +17,7 @@ body, html {
 }
 
 .bg-boho-menu {
-    /* background: #D2C8C6D1 0% 0% no-repeat padding-box; */
-}
-
-.bg-boho-light {
-    background-color: #FFFFFF4F;
+    background: #FFFFFF4F;
 }
 
 .nav-link {
@@ -130,7 +126,7 @@ h5 {
     font-family: 'UniNeueLight';
     font-weight: bold;
     font-size: 1.4rem;
-    list-style-type: ;
+    list-style-type: none;
 }
 
 .dark-block .price {
@@ -215,7 +211,7 @@ section#locations{
     padding-bottom: 1.5rem;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 981px) {
         #how li {
         font-size: 2rem;
         padding: 10px;
@@ -238,6 +234,15 @@ section#locations{
         position: relative;
         top: 3.5rem;
     }
+
+    .bg-boho-light {
+        background-color: #FFFFFF4F;
+    }
+    
+    .bg-boho-menu {
+        background: none;
+    }
+    
 }
 
 @media(max-width: 480px){
